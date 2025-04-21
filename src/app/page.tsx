@@ -21,12 +21,14 @@ export default function Home() {
             <ProjectCard 
               title="Alex Foxleigh Website" 
               url="https://alexfoxleigh.com" 
-              // Add imageUrl="/path/to/alexfoxleigh-preview.jpg" when available
+              imageUrl="/projects/alexfoxleigh-site.png"
+              altText="Alex Foxleigh Website screenshot"
             />
             <ProjectCard 
               title="Foxy's Tale Blog" 
               url="https://foxleigh.me" 
-              // Add imageUrl="/path/to/foxystale-preview.jpg" when available
+              imageUrl="/projects/foxys-tale-site.png"
+              altText="Foxy's Tale Blog screenshot"
             />
           </div>
         </section>
