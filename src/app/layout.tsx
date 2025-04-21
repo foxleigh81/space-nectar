@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from '@vercel/analytics/react';
 import { Montserrat } from "next/font/google";
 import "./globals.css";
 
@@ -25,7 +26,10 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
       </head>
-      <body className={`${montserrat.variable} font-sans antialiased`}>{children}</body>
+      <body className={`${montserrat.variable} font-sans antialiased`}>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
