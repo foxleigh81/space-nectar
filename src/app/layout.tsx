@@ -20,9 +20,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${montserrat.variable} font-sans antialiased`}>
-        {children}
-      </body>
+      <head>
+        <meta name="apple-mobile-web-app-title" content="Space Nectar" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+      </head>
+      <body className={`${montserrat.variable} font-sans antialiased`}>{children}</body>
     </html>
   );
 }

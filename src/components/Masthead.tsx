@@ -15,7 +15,7 @@ const Masthead: React.FC = () => {
           alt="Space Nectar Logo" 
           width={300} 
           height={150} 
-          className="mb-4"
+          className="mb-4 drop-shadow-[0_0_15px_rgba(75,0,130,0.7)]"
           priority 
         />
         <h1 className="text-5xl font-black tracking-tighter uppercase font-sans">Space Nectar</h1>

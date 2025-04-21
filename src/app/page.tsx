@@ -1,6 +1,7 @@
 import Masthead from "@/components/Masthead";
 import ProjectCard from "@/components/ProjectCard";
 import Footer from "@/components/Footer";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
         <section className="mb-16 text-center max-w-3xl mx-auto">
           <h2 className="text-3xl font-bold mb-4 text-purple-300">About Us</h2>
           <p className="text-lg text-gray-300 leading-relaxed">
-            Space Nectar is the software development brand of Alexander Foxleigh, established in 2023. We focus on creating high-quality, user-friendly web applications and tools.
+            Space Nectar is the software development brand of <Link href="https://alexfoxleigh.com" className="text-purple-300 hover:text-purple-400">Alexander Foxleigh</Link>, established in 2023. We focus on creating high-quality, user-friendly web applications and tools.
           </p>
         </section>
 

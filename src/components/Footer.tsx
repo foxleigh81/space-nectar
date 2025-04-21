@@ -36,7 +36,7 @@ const Footer: React.FC = () => {
           &copy; {currentYear} Space Nectar. All rights reserved.
         </p>
         <p className="text-xs mt-1">
-          Space Nectar is a trading name of Alexander Foxleigh.
+          Space Nectar is a trading name of <Link href="https://alexfoxleigh.com" className="text-purple-300 hover:text-purple-400">Alexander Foxleigh</Link>.
         </p>
       </div>
     </footer>
