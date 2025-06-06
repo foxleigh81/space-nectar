@@ -31,6 +31,12 @@ export default function Home() {
               imageUrl="/projects/foxys-tale-site.png"
               altText="Foxy's Tale Blog screenshot"
             />
+            <ProjectCard 
+              title="Strip AI App" 
+              url="https://strip-ai.spacenectar.io" 
+              imageUrl="/projects/strip-ai-app.png"
+              altText="Strip AI App screenshot"
+            />
           </div>
         </section>
       </div>
